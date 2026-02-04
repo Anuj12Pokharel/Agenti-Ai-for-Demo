@@ -14,7 +14,7 @@ export const Dashboard: React.FC = () => {
     const [isBuilding, setIsBuilding] = useState(false);
 
     // Flow: Task Input -> Analyze -> Build Animation -> Add Agent
-    const handleAnalyzeTask = (task: string) => {
+    const handleAnalyzeTask = () => {
         setIsTaskModalOpen(false);
         setIsBuilding(true);
     };
